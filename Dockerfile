@@ -1,3 +1,3 @@
-FROM maven:3.3.3-jdk-8
+FROM maven:3.2-jdk-7-onbuild
 COPY . /var/src/app
 RUN mvn package
