@@ -4,4 +4,4 @@ applications:
   memory: 1024M
   buildpack: java_buildpack
   host: haribook-sample
-  path: target/sample-1.0.0.war
+  path: sample-1.0.0.war
