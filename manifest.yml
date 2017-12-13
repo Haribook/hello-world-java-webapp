@@ -1,0 +1,7 @@
+---
+applications:
+- name: haribook-sample
+  memory: 1024M
+  buildpack: java_buildpack
+  host: haribook-sample
+  path: sample-1.0.0.war
